@@ -10,7 +10,7 @@ marked.setOptions({
 
 
 // Define the server URL
-const API_URL = 'https://ai-summarizer-api-9qny.onrender.com/'; // Or your deployed backend URL
+const API_URL = `${import.meta.env.VITE_API_URL}/api`
 
 function App() {
     const apiKey = import.meta.env.VITE_TINY_MCE_API_KEY;

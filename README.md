@@ -30,12 +30,17 @@ This is the frontend for the AI Meeting Notes Summarizer application. It provide
     ```bash
     npm install
     ```
-3.  **For backend**: The complete source code, along with detailed setup and deployment instructions, is available at the following GitHub repository:
+3.  **Create an environment file**: Create a `.env` file in the `root` directory of the project.
+4.  **Add the Tinymce Api Key**: 
+    ```env
+    VITE_TINY_MCE_API_KEY=" "
+    ```
+
+5.  **For backend**: The complete source code, along with detailed setup and deployment instructions, is available at the following GitHub repository:
     ```
     https://github.com/sagar-rj/Ai-Summarizer-Api
     ```
-
-5.  **Start the development server**:
+6.  **Start the development server**:
     ```bash
     npm run dev
     ```
